@@ -1,0 +1,19 @@
+{
+  "name": "loadtec-slidev",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.18.0",
+    "@slidev/theme-default": "npm:@slidev/theme-default@latest",
+    "@slidev/theme-seriph": "npm:@slidev/theme-seriph@latest",
+    "vue": "^3.4.0"
+  }
+}
